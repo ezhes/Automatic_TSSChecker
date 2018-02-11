@@ -6,5 +6,5 @@
 2. Edit AutoTSS/main.py, add your devices to the `devices_to_monitor` variable as well as editing the `program_path` variable to point to the absolute location of the AutoTSS folder (WITH A TRAILING SLASH!)
 3. For good measure, `chmod +x main.py tsschecker`
 4. Test it by running `python <absolute path to main.py>`. In AutoTSS/Blobs you should now see folders with each devices ecid and inside that you should have all available blobs saved.
-4. Run `crontab -e`, add the line `*/10 * * * * /Library/Frameworks/Python.framework/Versions/2.7/bin/python <ABSOLUTE PATH TO main.py>`
+4. Run `crontab -e`, add the line `*/10 * * * * /usr/bin/python <ABSOLUTE PATH TO main.py>`
 5. Enjoy!
