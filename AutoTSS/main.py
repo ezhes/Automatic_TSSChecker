@@ -6,7 +6,7 @@ devices_to_monitor = [
 ]
 
 program_path = "<PATH TO THE PROGRAM FOLDER>/AutoTSS/"
-blob_storage_path = program_path + "Blobs/"
+blob_storage_path = program_path + "blobs/"
 
 import urllib2, json
 from os import listdir, makedirs
